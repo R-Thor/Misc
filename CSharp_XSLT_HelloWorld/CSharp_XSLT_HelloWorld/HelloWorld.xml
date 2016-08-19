@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Report>
+  <Page/>
+  <body>
+    <Section name="Section_1">
+      <Textbox name="Textbox_1">Hello World!!!</Textbox>
+      <Textbox name="Textbox_2">Goodbye World!!!</Textbox>
+      <Textbox name="Textbox_88">88</Textbox>
+      <Textbox name="Textbox_22">22</Textbox>
+    </Section>
+  </body>
+</Report>
