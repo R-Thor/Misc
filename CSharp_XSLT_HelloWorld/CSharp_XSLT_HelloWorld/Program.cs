@@ -13,9 +13,9 @@ namespace CSharp_XSLT_HelloWorld
         static void Main(string[] args)
         {
             XslCompiledTransform xslt = new XslCompiledTransform();
-            string xmlfile = "HelloWorld.xml";
-            string textfile = "HelloWorld.html";
-            xslt.Load("HelloWorldConsole.xslt");
+            string xmlfile = "RDLC.xml";
+            string textfile = "RDLC.html";
+            xslt.Load("RDLC.xslt");
             xslt.Transform(xmlfile, textfile);
             FileInfo fi = new FileInfo(textfile);
             FileStream fs = fi.OpenRead();
